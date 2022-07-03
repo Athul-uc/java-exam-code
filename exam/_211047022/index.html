@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>javalab</title>
+</head>
+<body>
+<body text = "#0000FF" bgcolor = "#00FF00">
+<h1 align="center">STUDENT DETAILS</h1>
+<h3 >Add Student</h3>
+<form action="student_add" method="post" >  
+Roll no:<br><input type="text" name="roll_no"/><br/><br/>  
+Name:<br><input type="text" name="name"/><br/><br/>  
+Branch:<br><input type="text" name="branch"/><br/><br/>  
+Address:<br><input type="text" name="Address"/><br/><br/>  
+<input type="submit" value="Submit"/>
+</form>
+ 
+<h3>Add project</h3>
+<form action="project_add" method="post" >  
+Project Id:<br><input type="text" name="id"/><br/><br/>  
+Title:<br><input type="text" name="title"/><br/><br/>  
+Keyword:<br><input type="text" name="keyword"/><br/><br/>  
+Domain:<br><input type="text" name="domain"/><br/><br/>  
+<input type="submit" value="Submit"/>  
+</form> 
+
+<h3>Add Student Project</h3>
+<form action="student_project_add" method="post" >  
+Roll No:<br><input type="text" name="rollno"/><br/><br/>  
+Project ID:<br><input type="text" name="id"/><br/><br/>  
+<input type="submit" value="Submit"/> 
+</form>
+
+<h3>Delete Student</h3>
+<form action="student_delete" method="post" >  
+Roll No:<br><input type="text" name="roll_no"/><br/><br/>  
+<input type="submit" value="Delete"/>  
+</form>
+
+
+<h3>Delete Project</h3>
+<form action="project_delete" method="post" >  
+Project ID:<br><input type="text" name="id"/><br/><br/>  
+<input type="submit" value="Delete"/>  
+</form>
+
+<h3>Delete Student Project</h3>
+<form action="student_project_delete" method="post" >  
+Roll No:<br><input type="text" name="roll_no"/><br/><br/>  
+<input type="submit" value="Delete"/>  
+</form> 
+
+</body>
+</html>
